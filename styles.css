@@ -41,7 +41,7 @@ nav a:hover, nav a:focus-visible { color: var(--white); }
 .menu-toggle { display: none; background: none; border: 0; padding: 10px; }
 .menu-toggle span:not(.sr-only) { display: block; width: 25px; height: 2px; margin: 5px; background: var(--white); }
 
-.hero { min-height: 810px; position: relative; display: flex; align-items: center; overflow: hidden; color: var(--white); background-color: var(--navy-deep); background-image: url("assets/akme-repair-hero.png"); background-size: cover; background-position: center; }
+.hero { min-height: 810px; position: relative; display: flex; align-items: center; overflow: hidden; color: var(--white); background-color: var(--navy-deep); background-image: url("assets/akme-repair-hero.jpg"); background-size: cover; background-position: center; }
 .hero-shade { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(5,18,31,.97) 0%, rgba(7,25,43,.86) 43%, rgba(7,25,43,.28) 72%, rgba(7,25,43,.12) 100%), linear-gradient(0deg, rgba(5,18,31,.45), transparent 50%); }
 .hero-content { position: relative; z-index: 1; padding-top: 80px; }
 .eyebrow { display: flex; align-items: center; gap: 12px; margin: 0 0 24px; color: rgba(255,255,255,.72); text-transform: uppercase; letter-spacing: .18em; font-size: .72rem; font-weight: 700; }
