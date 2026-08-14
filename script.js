@@ -1,4 +1,4 @@
-const CONTACT_EMAIL = "hello@akmerepairs.com";
+const CONTACT_EMAIL = "contact@akmerepairs.com";
 
 const menuButton = document.querySelector(".menu-toggle");
 const navigation = document.querySelector("#site-nav");
