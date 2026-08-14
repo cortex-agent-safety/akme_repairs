@@ -1,0 +1,29 @@
+name: Validate site
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-site-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate-site:
+    name: validate-site
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Validate website files
+        run: node scripts/validate-site.mjs
+
+      - name: Check JavaScript syntax
+        run: node --check script.js
