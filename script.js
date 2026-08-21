@@ -1,5 +1,5 @@
 // Contact script for Akme Repairs
-const CONTACT_EMAIL = "contact@akmenrepairs.com";
+const CONTACT_EMAIL = "contact@akmerepairs.com";
 
 const menuButton = document.querySelector(".menu-toggle");
 const navigation = document.querySelector("#site-nav");
@@ -33,7 +33,7 @@ document.querySelector("#year").textContent = new Date().getFullYear();
 
 const observer = new IntersectionObserver(
   (entries) => {
-    entries.forEach((entree) => {
+    entries.forEach((entry) => {
       if (entry.isIntersecting) {
         entry.target.classList.add("visible");
         observer.unobserve(entry.target);
