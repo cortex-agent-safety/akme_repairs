@@ -10,6 +10,7 @@ Describe the problem or improvement and link its issue (`Closes #123`).
 
 - [ ] I ran `node scripts/validate-site.mjs`.
 - [ ] I ran `node --check script.js`.
+- [ ] I ran `node scripts/test-site-behavior.mjs`.
 - [ ] I checked the page at desktop and mobile widths when the UI changed.
 - [ ] I verified that text and images render without artifacts.
 

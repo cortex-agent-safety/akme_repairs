@@ -28,3 +28,6 @@ jobs:
 
       - name: Check JavaScript syntax
         run: node --check script.js
+
+      - name: Test website behavior
+        run: node scripts/test-site-behavior.mjs
